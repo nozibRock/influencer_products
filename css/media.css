@@ -1,0 +1,128 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* navigation style start */
+  .nav-toggle-label {
+    display: none;
+  }
+  header {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+  }
+  .logo {
+    grid-column: 1 / 2;
+  }
+  .logo h2 a {
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  nav {
+    all: unset;
+    width: 100%;
+    height: auto;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav li a {
+    opacity: 1;
+    font-size: 12px;
+  }
+  .nav-cart {
+    grid-column: 4 / 5;
+    justify-content: flex-start;
+    margin-right: 0;
+    margin-left: 1em;
+    position: relative;
+    align-items: center;
+  }
+  /* navigation style end */
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* navigation style start */
+  .nav-toggle-label {
+    display: none;
+  }
+  header {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+  }
+  .logo {
+    grid-column: 1 / 2;
+  }
+  .logo h2 a {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  nav {
+    all: unset;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav li a {
+    opacity: 1;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .nav-cart {
+    grid-column: 4 / 5;
+    justify-content: flex-start;
+    margin-right: 0;
+    margin-left: 1em;
+    position: relative;
+    align-items: center;
+  }
+  /* navigation style end */
+}
+@media (min-width: 1201px) {
+  /* navigation style start */
+  .nav-toggle-label {
+    display: none;
+  }
+  header {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+  }
+  .logo {
+    grid-column: 1 / 2;
+  }
+  .logo h2 a {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  nav {
+    all: unset;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav li a {
+    opacity: 1;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .nav-cart {
+    grid-column: 4 / 5;
+    justify-content: flex-start;
+    margin-right: 0;
+    margin-left: 1em;
+    position: relative;
+    align-items: center;
+  }
+  /* navigation style end */
+}

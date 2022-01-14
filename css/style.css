@@ -1,0 +1,105 @@
+/* navigation style start */
+header {
+  text-align: center;
+  position: relative;
+  z-index: 999;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  margin: 0;
+}
+.logo h2 a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: var(--gray-1);
+}
+.nav-toggle {
+  display: none;
+}
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: #000;
+  width: 24px;
+  height: 2px;
+  border-radius: 4px;
+  position: relative;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: "";
+  position: absolute;
+}
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+.nav-toggle-label span::after {
+  top: 7px;
+}
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  background-color: var(--blue-2);
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+nav li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  opacity: 0;
+  transition: all 150ms ease-in-out;
+  color: var(--gray-1);
+}
+.nav-toggle:checked ~ nav {
+  transform: scale(1, 1);
+}
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: all 250ms ease-in-out 250ms;
+}
+.nav-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-cart a i {
+  font-size: 24px;
+  color: var(--black-1);
+}
+/* navigation style end */

@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+    --gray-1: #3a3a3a;
+    --blue-1: #0A0826;
+    --blue-2: rgba(10, 8, 38, 0.25);
+    --white: #ffffff;
+    --black-1: #000000;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
