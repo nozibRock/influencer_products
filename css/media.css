@@ -1,3 +1,10 @@
+@media (min-width: 481px) and (max-width: 768px) {
+  /* navigation style start */
+  nav {
+    width: 25%;
+  }
+  /* navigation style end */
+}
 @media (min-width: 769px) and (max-width: 1024px) {
   /* navigation style start */
   .nav-toggle-label {
@@ -29,6 +36,7 @@
     justify-content: center;
   }
   nav li a {
+    color: var(--gray-1);
     opacity: 1;
     font-size: 12px;
   }
@@ -41,6 +49,30 @@
     align-items: center;
   }
   /* navigation style end */
+  /* hero style start */
+  .hero {
+    flex-direction: row;
+  }
+  .hero .content h1,
+  .hero .content p {
+    text-align: left;
+  }
+  .hero .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hero .content h1 {
+    font-size: 52px;
+    line-height: 70px;
+  }
+  /* hero style end */
+  /* trusted bar style start  */
+  .trusted-bar {
+    padding: 36px 0;
+    border-top: 1px solid var(--gray-2);
+    border-bottom: 1px solid var(--gray-2);
+  }
+  /* trusted bar style end  */
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
   /* navigation style start */
@@ -70,6 +102,7 @@
     align-items: center;
   }
   nav li a {
+    color: var(--gray-1);
     opacity: 1;
     font-size: 16px;
     line-height: 24px;
@@ -83,7 +116,34 @@
     align-items: center;
   }
   /* navigation style end */
+
+  /* hero style start */
+  .hero {
+    flex-direction: row;
+  }
+  .hero .content h1,
+  .hero .content p {
+    text-align: left;
+  }
+  .hero .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hero .content h1 {
+    font-size: 52px;
+    line-height: 70px;
+  }
+  /* hero style end */
+  /* trusted bar style start  */
+  .trusted-bar {
+    padding: 36px 0;
+    margin: 100px 0;
+    border-top: 2px solid var(--gray-2);
+    border-bottom: 2px solid var(--gray-2);
+  }
+  /* trusted bar style end  */
 }
+
 @media (min-width: 1201px) {
   /* navigation style start */
   .nav-toggle-label {
@@ -112,6 +172,7 @@
     align-items: center;
   }
   nav li a {
+    color: var(--gray-1);
     opacity: 1;
     font-size: 16px;
     line-height: 24px;
@@ -125,4 +186,31 @@
     align-items: center;
   }
   /* navigation style end */
+
+  /* hero style start */
+  .hero {
+    flex-direction: row;
+  }
+  .hero .content h1,
+  .hero .content p {
+    text-align: left;
+  }
+  .hero .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hero .content h1 {
+    font-size: 52px;
+    line-height: 70px;
+  }
+  /* hero style end */
+
+  /* trusted bar style start  */
+  .trusted-bar {
+    padding: 36px 0;
+    margin: 100px 0;
+    border-top: 2px solid var(--gray-2);
+    border-bottom: 2px solid var(--gray-2);
+  }
+  /* trusted bar style end  */
 }

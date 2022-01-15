@@ -10,7 +10,6 @@ header {
   margin: 0;
 }
 .logo h2 a {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -55,7 +54,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  width: 25%;
+  width: 50%;
   height: 100vh;
   background-color: var(--blue-2);
   transform: scale(1, 0);
@@ -80,6 +79,9 @@ nav li a {
   font-feature-settings: "liga" off;
   opacity: 0;
   transition: all 150ms ease-in-out;
+  color: var(--white);
+}
+nav li a:hover {
   color: var(--gray-1);
 }
 .nav-toggle:checked ~ nav {
@@ -103,3 +105,18 @@ nav li a {
   color: var(--black-1);
 }
 /* navigation style end */
+
+/* trusted bar style start  */
+.trusted-bar-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.trusted-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  margin: 50px 0;
+}
+/* trusted bar style end  */

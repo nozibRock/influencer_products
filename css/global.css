@@ -5,10 +5,12 @@
 }
 :root {
     --gray-1: #3a3a3a;
+    --gray-2: #C0CCDA;
     --blue-1: #0A0826;
-    --blue-2: rgba(10, 8, 38, 0.25);
+    --blue-2: rgba(10, 8, 38, 0.75);
     --white: #ffffff;
     --black-1: #000000;
+    --red-1: #E02C6D;
 }
 body {
   margin: 0;
@@ -22,4 +24,5 @@ a {
 }
 .font-poppins {
     font-family: 'Poppins', sans-serif;
+    font-style: normal;
 }
