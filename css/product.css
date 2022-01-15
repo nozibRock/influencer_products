@@ -1,0 +1,135 @@
+/* ---------------------
+    popular collection 
+--------------------- */
+.products-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.products-heading {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+}
+.product {
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.445);
+}
+.product-img img {
+  width: 100%;
+}
+.product-detail {
+  padding: 0 20px;
+}
+.product-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 16px;
+  margin-bottom: 3px;
+  font-feature-settings: "liga" off;
+  color: var(--gray-900);
+}
+.product-price {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  /* identical to box height, or 36px */
+  display: flex;
+  align-items: center;
+  color: var(--black-2);
+}
+.product-rating {
+  font-size: 11px;
+  color: var(--orange-60);
+  display: flex;
+  align-items: center;
+}
+.product-rating .rating {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: var(--gray-80);
+}
+.product-info p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.018em;
+  color: var(--gray-50);
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  .products-heading {
+    font-size: 28px;
+    line-height: 70px;
+    margin-bottom: 30px;
+  }
+  .product-title {
+    font-weight: 500;
+  }
+  .product-price {
+    font-weight: 400;
+  }
+  .product-info p {
+    font-weight: 700;
+  }
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1201px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  .products-heading {
+    font-size: 28px;
+    line-height: 70px;
+    margin-bottom: 30px;
+  }
+  .product-title {
+    font-weight: 500;
+  }
+  .product-price {
+    font-weight: 400;
+  }
+  .product-info p {
+    font-weight: 700;
+  }
+
+}
