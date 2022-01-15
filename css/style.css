@@ -120,3 +120,160 @@ nav li a:hover {
   margin: 50px 0;
 }
 /* trusted bar style end  */
+.newsletter-container {
+  margin: 0 auto;
+}
+.newsletter {
+  text-align: center;
+  margin: 50px 0;
+  padding: 2rem 1rem;
+  background: url("../images/subscribe-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.newsletter h3 {
+  color: --black-2;
+  font-size: 1.5rem;
+}
+
+.newsletter p {
+  color: --black-2;
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+
+.newsletter form {
+  max-width: 100%;
+  display: flex;
+  border: 0.2rem solid var(--gray-1);
+  padding: 0.5rem;
+  border-radius: 5rem;
+  margin: 1rem auto;
+}
+
+.newsletter form input[type="email"] {
+  padding: 0 1rem;
+  font-size: 1rem;
+  background: none;
+  width: 75%;
+  color: var(--black-1);
+  text-transform: none;
+  border: none;
+}
+
+.newsletter form input[type="email"]::placeholder {
+  color: var(--white);
+  text-transform: capitalize;
+}
+
+.newsletter form input[type="submit"] {
+  background: #fff;
+  font-size: 1rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.newsletter form input[type="submit"]:hover {
+  color: var(--pink);
+}
+
+.diff-container h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--blue-1);
+  margin-bottom: 20px;
+}
+.diff-content {
+  padding-top: 20px;
+  border-top: 1px solid var(--gray-2);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+}
+
+.diff-img {
+  display: flex;
+  justify-content: center;
+}
+.diff-img img {
+  max-width: 75%;
+}
+.diff-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.diff-title i {
+  font-size: 17px;
+  color: var(--orange-1);
+}
+.diff-title h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  margin-top: 23px;
+  margin-bottom: 15px;
+  color: var(--gray-900);
+}
+.diff-info p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
+  background: var(--blue-1);
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo h2 a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  font-feature-settings: "liga" off;
+
+  color: var(--white);
+}
+.copyright p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+
+  color: #d9dbe1;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.social-links li a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.534);
+  border-radius: 50%;
+}
+.social-links li a i {
+  font-size: 24px;
+  color: var(--white);
+}
